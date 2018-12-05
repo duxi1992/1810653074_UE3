@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f30ab1-ef82-4a07-9ce1-dc1845af11bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Taschenrechner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UE3_1810653074.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UE3_1810653074.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="657" />
+          <entry key="java" value="705" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="657" />
+          <entry key="JAVA" value="705" />
         </counts>
       </usages-collector>
     </session>
@@ -57,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Taschenrechner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="961">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#857#858#0" expanded="true" />
                 <element signature="e#885#886#0" expanded="true" />
@@ -79,6 +77,19 @@
                 <element signature="e#1456#1457#0" expanded="true" />
                 <element signature="e#1522#1523#0" expanded="true" />
                 <element signature="e#1558#1559#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,6 +116,8 @@
         <option value="$USER_HOME$/Desktop/UserInteraktion.java" />
         <option value="$PROJECT_DIR$/src/UE3_1810653074.java" />
         <option value="$PROJECT_DIR$/src/Taschenrechner.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe5_10653074.java" />
+        <option value="$PROJECT_DIR$/src/vehicle.java" />
       </list>
     </option>
   </component>
@@ -149,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544047425977" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544047964905" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -165,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Taschenrechner">
+  <component name="RunManager" selected="Application.vehicle">
     <configuration name="Aufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aufgabe2" />
       <module name="Uebung3_1810653074" />
@@ -187,13 +200,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vehicle" />
+      <module name="Uebung3_1810653074" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Aufgabe2" />
       <item itemvalue="Application.UE3_1810653074" />
       <item itemvalue="Application.Taschenrechner" />
+      <item itemvalue="Application.vehicle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.vehicle" />
         <item itemvalue="Application.Taschenrechner" />
         <item itemvalue="Application.UE3_1810653074" />
         <item itemvalue="Application.Aufgabe2" />
@@ -211,32 +233,41 @@
       <option name="presentableId" value="Default" />
       <updated>1543480849648</updated>
       <workItem from="1543480855370" duration="1521000" />
-      <workItem from="1543928194609" duration="13632000" />
+      <workItem from="1543928194609" duration="14277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15153000" />
+    <option name="totallyTimeSpent" value="15798000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -345,10 +376,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe5_10653074.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Taschenrechner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="961">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#857#858#0" expanded="true" />
             <element signature="e#885#886#0" expanded="true" />
@@ -366,6 +404,17 @@
             <element signature="e#1456#1457#0" expanded="true" />
             <element signature="e#1522#1523#0" expanded="true" />
             <element signature="e#1558#1559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
