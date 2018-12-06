@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-class Aufgabe4_1810653115
+class fibonacci
 {
     public static void main(String[] args)
     {
