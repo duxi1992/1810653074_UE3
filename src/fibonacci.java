@@ -5,11 +5,14 @@ class fibonacci
     public static void main(String[] args)
     {
         //Zahl einlesen
+
         int a = Integer.parseInt(JOptionPane.showInputDialog("Bitte Zahl eingeben!"));
         System.out.println("Fibonacci rekursiv");
 
         //Zeit messen
+
         double startR = System.currentTimeMillis();
+
         //Fibonacci rekursiv
         System.out.println("fib(" + a + ") =  " + fibonacciRekursiv(a));
 
@@ -19,6 +22,7 @@ class fibonacci
 
 
         //Fibonacci iterativ
+
         System.out.println("Fibonacci iterativ");
         int startI = 0;
         System.out.println("fib(" + a + ") =  " + fibonacciIterativ(a));

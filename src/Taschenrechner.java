@@ -62,4 +62,3 @@ public class Taschenrechner
         System.out.println(ergebnis);
     }
 }
-}
