@@ -1,69 +1,65 @@
-public class Taschenrechner {
-
-        public static void main(String[] args) {
-
-
-
-
-            int a = 10;
-            int b = 20;
-
-            System.out.println(Taschenrechner.addierenI(a,b));
-            System.out.println(Taschenrechner.subtrahierenI(a,b));
-            System.out.println(Taschenrechner.multiplizierenI(a,b));
-            System.out.println(Taschenrechner.dividierenI(a,b));
-
-            //Gleitkomma Zahlen
-            double c = 2.5;
-            double d = 3.5;
-
-            System.out.println(Taschenrechner.addierenD(c,d));
-            System.out.println(Taschenrechner.subtrahierenD(c,d));
-            System.out.println(Taschenrechner.multiplizierenD(c,d));
-            System.out.println(Taschenrechner.dividierenD(c,d));
-
-        }
-
-
-
-    public static int addierenI ( int a, int b)
+public class Taschenrechner
+{
+    public static void main(String[] args)
     {
-        return a + b;
-    }
+        System.out.println("Addieren");
+        Addition(1, 2 );
+        Addition(2.5,3.5);
 
-    public static int subtrahierenI ( int a, int b)
+        System.out.println("Subtrahieren");
+        Subtraktion(2, 1);
+        Subtraktion(2.5, 1.5);
+
+        System.out.println("Multiplizieren");
+        Multiplikation(1 , 2);
+        Multiplikation(2.5, 3.5);
+
+        System.out.println("Dividieren");
+        Division(4.5, 3.5);
+    }
+    //Addition
+    public static void Addition(int a, int b)
     {
-        return a - b;
+        int ergebnis = a + b;
+        System.out.println(ergebnis);
     }
-
-    public static int multiplizierenI ( int a, int b)
+    public static void Addition (double a, double b)
     {
-        return a * b;
+        double ergebnis = a + b;
+        System.out.println(ergebnis);
     }
-
-    public static int dividierenI ( int a, int b)
+    //Subtraktion
+    public static void Subtraktion(int a, int b)
     {
-        return a / b;
+        int ergebnis = a - b;
+        System.out.println(ergebnis);
     }
-
-    public static double addierenD ( double c, double d)
+    public static void Subtraktion (double a, double b)
     {
-        return (int) (c + d);
+        double ergebnis = a - b;
+        System.out.println(ergebnis);
     }
-
-    public static double subtrahierenD ( double c, double d)
+    //Multiplikation
+    public static void Multiplikation(int a, int b)
     {
-        return (int) (c - d);
+        int ergebnis = a * b;
+        System.out.println(ergebnis);
     }
-
-    public static double multiplizierenD ( double c, double d)
+    public static void Multiplikation(double a, double b)
     {
-        return (int) (c * d);
+        double ergebnis = a * b;
+        System.out.println(ergebnis);
     }
-
-    public static double dividierenD ( double c, double d)
+    //Division
+    public static void Division(int a, int b)
     {
-        return (int) (c / d);
+        int ergebnis = a / b;
+        System.out.println(ergebnis);
     }
-
+    public static void Division(double a, double b)
+    {
+        double ergebnis = a / b;
+        System.out.println(ergebnis);
+    }
+}
 }

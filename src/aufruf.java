@@ -1,22 +1,28 @@
 import javax.swing.*;
 
-public class aufruf {
+public class Aufgabe5{
 
-    public class Aufruf
-    {
         public static void main(String[] args)
         {
-            vehicle.Vehicle auto1 = new vehicle.Vehicle();
-            vehicle.Vehicle auto2 = new vehicle.Vehicle();
+            //neue Instanz
+            Vehicle seat = new Vehicle();
+            //Werte zuweisen
+            seat.setName("Seat");
+            seat.setPower(150);
 
-            auto1.name="VW";
-            auto2.name="Prosche";
+            //Ausgabe
+            System.out.println("Name: " + seat.printName());
+            System.out.println("PS: " + seat.getPower());
+            seat.calculatePower();
 
-            JOptionPane.showMessageDialog(null,"Ein " +auto1.name +" hat... ");
-            vehicle.Vehicle.calculatePower(180);
+            System.out.println("--------------------");
+            Vehicle vw = new Vehicle();
+            vw.setName("VW");
+            vw.setPower(179);
 
-            JOptionPane.showMessageDialog(null, "Ein " +auto2.name +" hat... ");
-            vehicle.Vehicle.calculatePower(170);
+            System.out.println("Name: " + vw.printName());
+            System.out.println("PS: " + vw.getPower());
+            vw.calculatePower();
+
         }
-    }
 }
