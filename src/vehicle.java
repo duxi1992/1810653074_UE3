@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class Vehicle
+class Vehicle
 {
     private int power;
     private double weight;
